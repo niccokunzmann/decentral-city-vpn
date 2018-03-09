@@ -57,7 +57,7 @@ Vorgeschlagene API:
 Das lässt einen Server laufen. Folgende Konfiguration erfolgt über die Umgebungsvariablen:
 
 - `SERVER_CLIENT_CERTIFICATE_URL`  
-  eine URL zu gemeinschaftlich Verwalteten öffentlichen Schlüsseln als ZIP-Datei.
+  eine URL zu gemeinschaftlich verwalteten, öffentlichen Schlüsseln als ZIP-Datei.
 - `SERVER_CLIENT_CERTIFICATE_URL_UPDATE` default 3600  
   Die Zeit, nach der die Zertifikate erneuert werden.
 - `SERVER_FORWARD_TO_INTERNET` defaults to `false`  
@@ -65,10 +65,20 @@ Das lässt einen Server laufen. Folgende Konfiguration erfolgt über die Umgebun
 - `SERVER_MESH` defaults to `true`  
   Können die Clients durch den Server meshen?
 - `SERVER_INTERCONNECTIONS_URL`  
-  Eine URL zu einer ZIP-Datei, in der die Zertifikate und URLS für Server enthält,
+  Eine URL zu einer ZIP-Datei, in der die Zertifikate und URLs für Server enthält,
   mit denen man sich verbinden möchte.
-  Das servereigene Zertifikat wird genutzt.
+  Das servereigene Zertifikat wird für die Vernindung genutzt.
 - `PRINT_SERVER_CERTIFICATE` defaults to `true`  
   Gibt beim Start den öffentlichen Teil des Serverzertifikates aus.
   Damit kann man ihn zu der Liste in der `SERVER_INTERCONNECTIONS_URL`
   hinzufügen.
+- `SERVER_AS_CLIENT_CONNECTIONS` defaults to `true`  
+  Die Server der Gemeinschaften legen selbst Zertifikate an.
+  Diese können in einen Ordner kopiert werden, damit sich der Server automatisch mit
+  diesen Servern verbindet.
+
+Weiterhin kann man sich überlegen, verschiedene Tags für die Communities einzufügen,
+sodass diese verschiedene Konfigurationen haben können.
+
+    docker run niccokunzmann/decentral-community-vpn:potsdam
+    docker run niccokunzmann/decentral-community-vpn:berlin
