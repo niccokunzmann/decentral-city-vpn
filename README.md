@@ -27,3 +27,10 @@ Diese erfolgt über Zertifikate, die den Server und den Client gegenüber einand
 Bei den zentralen Instanzen ist es so: ein Client erhält ein Zertifikat vom dem VPN-Server-Betreiber
 über eine E-Mail mit dem privaten Schlüssel des Clients, dem öffentlichen Zertifikat des Servers und
 dem privaten Zertifikat des Clients.
+
+### Dezentralisierung
+
+Eine Dezentralisierung des VPNs ermöglicht, dass die Inseln ausfallsicherer angebunden werden.
+Gleichzeitig bietet ein privates, schnelles Aufsetzen von VPN-Servern für Freifunk, dass mehr 
+bestehende LAN-Infrastruktur zum Meshen genutzt werden kann.
+
