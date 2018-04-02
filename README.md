@@ -82,3 +82,11 @@ sodass diese verschiedene Konfigurationen haben können.
 
     docker run niccokunzmann/decentral-community-vpn:potsdam
     docker run niccokunzmann/decentral-community-vpn:berlin
+
+Diskussionen
+------------
+
+- [[Berlin-wireless] puppets für community tunnel - wo sind die Puppenspieler?](https://lists.berlin.freifunk.net/pipermail/berlin/2018-April/037490.html)
+- [[FFP] Dezentrales VPN](https://lists.freifunk-potsdam.de/pipermail/users/2018-March/018483.html)
+- [[FFP] Zwecke vom Potsdam-VPN](https://lists.freifunk-potsdam.de/pipermail/users/2018-March/018478.html)
+- [[Berlin-wireless]Foo-over-UDP (FoU) oder L2TP+Tunneldigger als Alternative zu OpenVPN für VPN03, c-base heute ](https://lists.berlin.freifunk.net/pipermail/berlin/2016-February/032051.html)
