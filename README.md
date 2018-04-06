@@ -86,6 +86,7 @@ sodass diese verschiedene Konfigurationen haben können.
 Diskussionen
 ------------
 
+- [[Forum] Wer nutzt Tunneldigger](https://forum.freifunk.net/t/welche-communities-nutzen-den-tunneldigger/18510/4)
 - [[Berlin-wireless] puppets für community tunnel - wo sind die Puppenspieler?](https://lists.berlin.freifunk.net/pipermail/berlin/2018-April/037490.html)
 - [[FFP] Dezentrales VPN](https://lists.freifunk-potsdam.de/pipermail/users/2018-March/018483.html)
 - [[FFP] Zwecke vom Potsdam-VPN](https://lists.freifunk-potsdam.de/pipermail/users/2018-March/018478.html)
